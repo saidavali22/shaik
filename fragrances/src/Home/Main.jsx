@@ -15,7 +15,7 @@ function Main(){
          <PerfumesBrand />
          <FooterImgStrip />
          <AboutUs /> 
-         {/* <OurStore /> */}
+         <OurStore />
          <Footer />
        </section>
 
