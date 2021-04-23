@@ -32,5 +32,5 @@ urlpatterns = [
     # path('uploadd', include(router.urls)),
     path('admin/', admin.site.urls),
     path('' ,include('fragrances_api.urls')),
-    
 ]
+
