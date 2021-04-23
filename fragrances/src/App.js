@@ -12,7 +12,7 @@ function App() {
     <Header />
       <Main />
     </Route>
-    <Route path="/admin" >
+    <Route path="/adminn" >
     <MainDash />
     </Route>
 
