@@ -25,7 +25,7 @@ SECRET_KEY = 'rpz9jd3(8=*4jn)-&re62ocf7gpj-o+wdy-hm2qutjqc(t5q)u'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["https://eanddfragrances.herokuapp.com/" , "http://127.0.0.1:8000/" , "eanddfragrances.herokuapp.com"]
+ALLOWED_HOSTS = ["https://eanddfragrances.herokuapp.com/" , "http://127.0.0.1:8000/" , "eanddfragrances.herokuapp.com" ,"https://eandfra.herokuapp.com/" ,"eandfra.herokuapp.com"]
 
 
 # Application definition
@@ -135,7 +135,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticdataa')
 
 # CORS_ORIGIN_WHITELIST = ["http://localhost:3000","localhost" ,"127.0.0.1"]
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", "127.0.0.1:5500" ,"https://eanddfragrances.herokuapp.com" ,"eanddfragrances.herokuapp.com"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "127.0.0.1:5500" ,"https://eanddfragrances.herokuapp.com" ,"eanddfragrances.herokuapp.com" ,"https://eandfra.herokuapp.com/" ,"eandfra.herokuapp.com"]
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
