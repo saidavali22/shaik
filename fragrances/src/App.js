@@ -19,8 +19,7 @@ function App() {
     <Route path="/products" >
     <MainDash />
     </Route>
-
-
+    
   </Switch>
 
     // <section>

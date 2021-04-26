@@ -44,6 +44,8 @@
     
 <script src="https://kit.fontawesome.com/c2d6e3b4a1.js" crossorigin="anonymous"></script>
 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -77,11 +79,11 @@
   background-size: cover;
   background-position: auto; */
   body{
-  background: url('./static/bg-imgs/bg.gif') no-repeat center center fixed; 
+        {% comment %} background: url('./static/bg-imgs/bgbody1.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;  {% endcomment %}
    }
 
    .about-bg{
@@ -102,7 +104,7 @@
 
 
   </head>
-  <body>
+  <body style="background-color:#000">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--

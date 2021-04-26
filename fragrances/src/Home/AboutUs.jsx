@@ -36,9 +36,10 @@ const AboutUs=()=>{
                     </div>
 
                 </div> 
-                <div className="col-xl-5 px-5 col-md-6  pt-xl-5 mt-xl-5 pl-xl-5">
+                {/* F0E68C */}
+                <div className="col-xl-5  px-5 col-md-6  pt-xl-5  pl-xl-5">
                         <div>
-                            <h1 className="wow animate__animated animate__backInDown pl-xl-5 about-font" style={{color:"#F0E68C"}}><b>
+                            <h1 className="wow animate__animated animate__backInDown  about-font" style={{color:"#F0E68C"}}><b>
                                 <i>
                             Love is a perfume you cannot pour onto others without getting a few drops on yourself.
                             </i></b></h1>
