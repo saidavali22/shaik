@@ -5,16 +5,20 @@ const TopBrands=()=>{
   useEffect(()=>{
     return(
        setbrand([
-           {id:'1',brand_img_url:'https://nstylefragrances.com/wp-content/uploads/2020/12/brand-8.jpg'},
-           {id:'2',brand_img_url:'https://nstylefragrances.com/wp-content/uploads/2020/12/brand-14.png'},
-           {id:'2',brand_img_url:'https://nstylefragrances.com/wp-content/uploads/2020/12/brand-14.png'},
-           {id:'2',brand_img_url:'https://nstylefragrances.com/wp-content/uploads/2020/12/brand-14.png'},
-           {id:'2',brand_img_url:'https://nstylefragrances.com/wp-content/uploads/2020/12/brand-14.png'},
-           {id:'2',brand_img_url:'https://nstylefragrances.com/wp-content/uploads/2020/12/brand-14.png'},
-           {id:'2',brand_img_url:'https://nstylefragrances.com/wp-content/uploads/2020/12/brand-14.png'},
-           {id:'2',brand_img_url:'https://nstylefragrances.com/wp-content/uploads/2020/12/brand-14.png'},
-           {id:'2',brand_img_url:'https://nstylefragrances.com/wp-content/uploads/2020/12/brand-14.png'},
-
+           {id:'1',brand_img_url:'/static/topbrands/brand-1.jpg'},
+           {id:'2',brand_img_url:'/static/topbrands/brand-2.jpg'},
+           {id:'3',brand_img_url:'/static/topbrands/brand-3.jpg'},
+           {id:'4',brand_img_url:'/static/topbrands/brand-4.jpg'},
+           {id:'5',brand_img_url:'/static/topbrands/brand-5.jpg'},
+           {id:'6',brand_img_url:'/static/topbrands/brand-6.jpg'},
+           {id:'7',brand_img_url:'/static/topbrands/brand-7.jpg'},
+           {id:'8',brand_img_url:'/static/topbrands/brand-8.jpg'}, 
+           {id:'10',brand_img_url:'/static/topbrands/brand-10.jpg'},
+           {id:'11',brand_img_url:'/static/topbrands/brand-11.jpg'},
+           {id:'12',brand_img_url:'/static/topbrands/brand-12.jpg'},
+           {id:'13',brand_img_url:'/static/topbrands/brand-13.jpg'},
+           {id:'14',brand_img_url:'/static/topbrands/brand-14.jpg'},
+      
        ])  
     )
   },[]);

@@ -2,7 +2,7 @@
 const Footer=()=>{
     return(
 <section>
-<div className="row m-0 bg-dark text-info">
+<div className="row m-0 bg-dark text-info mt-5">
 <div className="col-xl-10  col-md-10 mx-auto py-5">
 <div className="row m-0">
 <div className="col-xl-3 col-md-6 ">

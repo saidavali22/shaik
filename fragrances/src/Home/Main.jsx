@@ -1,5 +1,6 @@
 import AboutUs from "./AboutUs"
 import Banner from "./Banner"
+import BounceUp from "./BounceUp"
 import Footer from "./Footer"
 import FooterImgStrip from "./FooterImgStrip"
 import OurStore from "./OurStore"
@@ -13,6 +14,7 @@ function Main(){
          <TopBrands />
          <Perfumeslist />
          <PerfumesBrand />
+         <BounceUp />
          <FooterImgStrip />
          <AboutUs /> 
          <OurStore />

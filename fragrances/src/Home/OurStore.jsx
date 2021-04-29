@@ -1,45 +1,35 @@
 import { useState } from "react";
-import $ from 'jquery'
-
 const OurStore=()=>{
     const [store]=useState([
         {
             id:1,url:"./static/store/store1.jpeg"
         },
         {
-            id:1,url:"./static/store/store2.jpeg"
+            id:2,url:"./static/store/store2.jpeg"
         },
         {
-            id:1,url:"./static/store/store3.jpeg"
+            id:3,url:"./static/store/store3.jpeg"
         },
         {
-            id:1,url:"./static/store/store4.jpeg"
+            id:4,url:"./static/store/store4.jpeg"
         },
         {
-            id:1,url:"./static/store/store5.jpeg"
+            id:5,url:"./static/store/store6.jpeg"
         },
         {
-            id:1,url:"./static/store/store6.jpeg"
+            id:6,url:"./static/store/store7.jpeg"
         },
         {
-            id:1,url:"./static/store/store7.jpeg"
+            id:7,url:"./static/store/store8.jpeg"
         },
         {
-            id:1,url:"./static/store/store8.jpeg"
+            id:8,url:"./static/store/store9.jpeg"
         },
         {
-            id:1,url:"./static/store/store9.jpeg"
-        },
-        {
-            id:1,url:"./static/store/store10.jpeg"
+            id:9,url:"./static/store/store10.jpeg"
         }
 
     ])
-
-    const video_hover=()=>{
-        //   alert("hii")
-    }
-
 
     const bg_video_play=()=>{
        var vid = document.getElementById("video");
@@ -84,7 +74,7 @@ const OurStore=()=>{
          
          <li className="w-100  h-100" style={{position:"absolute" , top:"0px" ,  }}>
         
-             <img src="./static/bg-imgs/video-bg.png" onMouseEnter={video_hover} usemap="#workmap" className="w-100" style={{opacity:"0"}} />
+             <img src="./static/bg-imgs/video-bg1.png" alt="fragrance explore and do technologies pvt ltd" usemap="#workmap" className="w-100" style={{opacity:"0"}} />
            
              <div className=" w-100" style={{position:"absolute" ,top:"20%"}}>
                 <div className="m-0  row" >
@@ -107,7 +97,7 @@ const OurStore=()=>{
         
          <div class="uk-position-relative uk-visible-toggle uk-light" uk-slider="autoplay:true ; sets:true" tabindex="-1">
 
-<ul className="uk-slider-items store-img uk-child-width-1-2 uk-child-width-1-5@m pb-5" >
+<ul className="uk-slider-items store-img  uk-child-width-1-2 uk-child-width-1-5@lg uk-child-width-1-4@m  pb-5" >
 
     {data}
 

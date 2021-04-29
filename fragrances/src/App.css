@@ -14,7 +14,7 @@
   .perfum_img{
     max-height: 300px;
     border-radius: 10px;
-    border: solid 2px #dc9814 !important;;
+
   }
   /* body{
     background-color: black;
@@ -75,8 +75,7 @@ position: absolute;
 
 .store-img .uk-active:hover{
   opacity: 1;
-  z-index: 10;
-  transform: scale(1.2);
+  transform: scale(1.1);
   cursor: pointer;
 }
 
@@ -89,6 +88,109 @@ position: absolute;
 .about-font{
   font-family: 'Dancing Script', cursive;
   font-size: 56px;
+}
+
+.bounce_img:hover{
+  -webkit-animation-name:tada;
+  animation-name:tada;
+  -webkit-transform-origin:center bottom;
+  transform-origin:center bottom;
+  cursor:pointer
+ }
+ .border_img_content{
+   border-left: solid 2px #DAA520;
+   border-top: solid 2px #DAA520;
+ }
+
+ .bounce_img_container{
+  width:140px;
+  left:-70px;
+  position: relative;
+  display: table-cell;
+ }
+ .bounce_content{
+  display: table-cell;
+  position: relative;
+  left:-70px ;
+}
+ @media (max-width: 768px) {
+  .bounce_img_container{
+    width:100px;
+  }
+  .bounce_img_container,.bounce_content{
+    
+    left:0px;
+  
+   }
+ }
+
+
+
+ .about_us_container{
+   padding: 100px 0px;
+
+   border-radius: 10px;
+   background-color: #fff;
+   color: black;
+ }
+
+ .our_product_container{
+   background-color: #fff;
+  color: #DAA520;
+  }
+
+
+  .effect-cls:after {
+    content: "";
+    position: absolute;
+    background: url(http://instylesunglass.com/Html/images/top.png);
+    top: 0px;
+    width: 100%;
+    height: 110px;
+    z-index: 1;
+    background-repeat: no-repeat;
+ }
+
+ .effect-cls::before {
+  content: "";
+  position: absolute;
+  background: url(http://instylesunglass.com/Html/images/back.png);
+  bottom: -50px;
+  width: 100%;
+  height: 110px;
+  z-index: 1;
+  background-repeat: no-repeat;
+}
+
+.img_container_blog{
+  position: relative;
+}
+
+.img_container_blog:hover{
+  cursor: pointer;
+
+}
+
+.img_container_blog:hover > .sub_conatiner{ 
+  display: inline;
+ }
+.sub_conatiner{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  display: none;
+  border-radius: 10px;
+}
+
+.view_product,.product_price{
+  background-color: #DAA520;
+  color: black;
 }
 /* header css */
 

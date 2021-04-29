@@ -128,3 +128,15 @@ text-decoration:none;
     content: "\f105";
     font-family: FontAwesome;
 }  
+
+.filter_container{
+  max-height: 600px;
+  position:sticky;
+  top: 100px;
+}
+.brand_name{
+  border-bottom: solid 2px #dc9814;
+}
+ul{
+  list-style: none;
+}
