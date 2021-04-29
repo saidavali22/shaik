@@ -74,7 +74,7 @@ const Perfumeslist=()=>{
           <img src={perfum[index].product_img} className="p-0 perfum_img w-100" style={{height:"280px"}}  alt="" />
          
            <div className="sub_conatiner mx-auto mb-4">
-             <p className="w-100 product_price"><b>RS 0/-</b></p>
+             <p className="w-100 product_price"><b>$ 0/-</b></p>
              <button className="btn w-100 view_product"><b>View Product </b></button>
              
            </div>
